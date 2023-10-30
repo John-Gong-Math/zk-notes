@@ -1,0 +1,39 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{PFM{\etalchar{+}}22}
+
+\bibitem[BS20]{boneh2020graduate}
+Dan Boneh and Victor Shoup.
+\newblock A graduate course in applied cryptography.
+\newblock {\em Draft 0.5}, 2020.
+
+\bibitem[CBBZ22]{chen2022hyperplonk}
+Binyi Chen, Benedikt B{\"u}nz, Dan Boneh, and Zhenfei Zhang.
+\newblock Hyperplonk: Plonk with linear-time prover and high-degree custom gates.
+\newblock {\em Cryptology ePrint Archive}, 2022.
+
+\bibitem[Dan]{boneh2023zkmooc}
+Boneh Dan.
+\newblock Berkeley mooc on zero knowledge proof.
+\newblock \url{https://zk-learning.org/assets/lecture5-2023.pdf}.
+
+\bibitem[G{\etalchar{+}}05]{goldreich2005foundations}
+Oded Goldreich et~al.
+\newblock Foundations of cryptography--a primer.
+\newblock {\em Foundations and Trends{\textregistered} in Theoretical Computer Science}, 1(1):1--116, 2005.
+
+\bibitem[GWC19]{gabizon2019plonk}
+Ariel Gabizon, Zachary~J Williamson, and Oana Ciobotaru.
+\newblock Plonk: Permutations over lagrange-bases for oecumenical noninteractive arguments of knowledge.
+\newblock {\em Cryptology ePrint Archive}, 2019.
+
+\bibitem[Jus]{ThalerBookZKP}
+Thaler Justin.
+\newblock Proofs, arguments, and zero-knowledge.
+\newblock \url{https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf}.
+
+\bibitem[PFM{\etalchar{+}}22]{pearson2022plonkup}
+Luke Pearson, Joshua Fitzgerald, H{\'e}ctor Masip, Marta Bell{\'e}s-Mu{\~n}oz, and Jose~Luis Mu{\~n}oz-Tapia.
+\newblock Plonkup: Reconciling plonk with plookup.
+\newblock {\em Cryptology ePrint Archive}, 2022.
+
+\end{thebibliography}

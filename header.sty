@@ -1,0 +1,163 @@
+\ProvidesPackage{example}
+
+\usepackage{physics}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{array}
+\usepackage[toc,page]{appendix}
+\usepackage{amsthm}
+\usepackage{multirow}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{float}
+\usepackage{csquotes}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage[shortlabels]{enumitem}
+\usepackage[ruled]{algorithm2e}
+\usepackage{tikz-cd}
+\usepackage{tikz}
+\usepackage{lipsum}
+\usetikzlibrary{quantikz}
+\usepackage{geometry}
+\geometry{
+  top=1in,bottom=0.75in,inner=0.75in,outer=0.6in,
+  headsep=0.3in,footskip=0.3in,footnotesep=0.4in,
+  reversemarginpar,marginparwidth=0.575in,marginparsep=0.5em
+ }
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,adjustbox}
+\usepackage[skins,breakable]{tcolorbox}
+\tcbuselibrary{listings}
+\tcbuselibrary{breakable}
+\lstset{
+basicstyle=\small\ttfamily,
+columns=flexible,
+breaklines=true
+}
+\usepackage[pdftex,hyperfigures,pdfpagelabels]{hyperref} 
+
+
+\graphicspath{ {./images/}}
+
+\newtheoremstyle{break}% name
+  {}%         Space above, empty = `usual value'
+  {}%         Space below
+  {\itshape}% Body font
+  {}%         Indent amount (empty = no indent, \parindent = para indent)
+  {\bfseries}% Thm head font
+  {.}%        Punctuation after thm head
+  {5pt}% Space after thm head: \newline = linebreak
+  {\thmname{#1}\thmnumber{ #2}\thmnote{ (#3)}}%         Thm head spec
+
+\theoremstyle{break}
+
+\newtheorem{definition}{Definition}[section]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem*{remark}{Remark}
+
+
+\newenvironment{boxx1}[1][]
+    {\begin{center}
+     \begin{tabular}{|p{0.9\textwidth}|}
+     \hline
+     \begin{definition}[#1] 
+    }
+    { 
+    \end{definition} 
+    \\ \hline
+    \end{tabular}
+    \end{center}
+    }
+
+
+\newenvironment{boxx2}[1][]
+   {\begin{center}
+     \begin{tabular}{|p{0.9\textwidth}|}
+     \hline
+     \begin{proposition}[#1]
+    }
+    { 
+    \end{proposition} 
+    \\ \hline
+    \end{tabular}
+    \end{center}
+    }
+
+\newenvironment{boxx3}[1][]
+   {\begin{center}
+     \begin{tabular}{|p{0.9\textwidth}|}
+     \hline
+     \begin{theorem}[#1]
+    }
+    { 
+    \end{theorem} 
+    \\ \hline
+    \end{tabular}
+    \end{center}
+    }
+
+
+\newenvironment*{blocc}[1][]
+  {\begin{center}
+   \begin{minipage}{0.9\textwidth}
+   \textbf{#1}
+  }
+  {
+   \end{minipage}
+   \end{center}
+  }
+
+\newtcolorbox{cboxx}{center,enhanced,fonttitle=\sffamily\bfseries\large,halign=center,valign=center,width=.8\textwidth}
+
+\SetKwComment{Comment}{/* }{ */}
+
+\DeclareMathOperator{\Homm}{Hom}
+\DeclareMathOperator{\Endd}{End}
+\DeclareMathOperator{\Autt}{Aut}
+\DeclareMathOperator{\Kerr}{Ker}
+\DeclareMathOperator{\Imm}{Im}
+\DeclareMathOperator{\GLL}{GL}
+\DeclareMathOperator{\Trr}{Tr}
+\DeclareMathOperator{\spann}{span}
+\DeclareMathOperator{\dett}{det}
+\DeclareMathOperator{\voll}{vol}
+\DeclareMathOperator{\distt}{dist}
+\DeclareMathOperator{\minn}{min}
+\DeclareMathOperator{\Gall}{Gal} 
+\DeclareMathOperator{\ordd}{ord}
+\DeclareMathOperator{\radd}{rad}
+\DeclareMathOperator{\lcmm}{lcm}
+\DeclareMathOperator{\Hashh}{Hash}
+\DeclareMathOperator{\Prr}{Pr}
+\DeclareMathOperator{\Encc}{Enc}
+\DeclareMathOperator{\Decc}{Dec}
+\DeclareMathOperator{\Genn}{Gen}
+\DeclareMathOperator{\PrivK}{PrivK}
+\DeclareMathOperator{\degg}{deg}
+\DeclareMathOperator{\maxx}{max}
+\DeclareMathOperator{\rankk}{rank}
+\DeclareMathOperator{\SISS}{SIS}
+
+
+
+\def\A{\mathcal{A}}
+\def\C{\mathcal{C}}
+\def\D{\mathcal{D}}
+\def\M{\mathcal{M}}
+\def\K{\mathcal{K}}
+\def\Q{\mathbb{Q}}
+\def\N{\mathbb{N}}
+\def\R{\mathbb{R}}
+\def\Z{\mathbb{Z}}
+\def\F{\mathbb{F}}
+\def\O{\mathcal{O}}
+\def\p{\mathfrak{p}}
+\def\q{\mathfrak{q}}
+\def\a{\mathfrak{a}}
+\def\b{\mathfrak{b}}
+\def\m{\mathfrak{m}}
+

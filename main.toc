@@ -1,0 +1,46 @@
+\contentsline {section}{\numberline {1}Preliminaries}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Notions of Interactive Proofs and Argument Systems}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Determination of Vector and The Communication Protocol}{5}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Determination of Polynomials}{6}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Evaluation of Polynomials}{8}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}BLS12-381 with Pairing}{10}{subsection.1.5}%
+\contentsline {section}{\numberline {2}Interactive Proofs}{12}{section.2}%
+\contentsline {subsection}{\numberline {2.1}The Sum-Check Protocol}{12}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}The GKR Protocol}{15}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Turning Computer Programs Into Circuits}{19}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Arithmetic Circuit-SAT}{19}{subsection.3.1}%
+\contentsline {section}{\numberline {4}A First Succinct Interactive Argument of Knowledge}{20}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Polynomial Commitment Schemes, A First Example}{20}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}A First Succinct Argument for Circuit Satisfiability}{21}{subsection.4.2}%
+\contentsline {section}{\numberline {5}MIPs and Succinct Arguments}{22}{section.5}%
+\contentsline {subsection}{\numberline {5.1}An Efficient MIP For Circuit Satisfiability}{22}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Extension from Circuit-SAT to R1CS-SAT}{25}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Interactive Oracle Proofs}{28}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Polynomials IOPs and Associated Succinct Arguments}{28}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}The Univariate Sum-Check Protocol over A Multiplicative Group}{29}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}A Polynomial IOP for R1CS-SAT}{29}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Several Gadgets of Plonkish IOPs}{31}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}HyperPlonk IOPs}{34}{subsection.6.5}%
+\contentsline {section}{\numberline {7}Zero-Knowledge Proofs and Arguments}{34}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Definitions}{34}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Two Examples of Statistical Zero-Knowledge (SZK) Protocol}{35}{subsection.7.2}%
+\contentsline {section}{\numberline {8}$\Sigma $-Protocols and Commitments from Hardness of Discrete Logarithm}{37}{section.8}%
+\contentsline {subsection}{\numberline {8.1}$\Sigma $-Protocols: Schnorr's Protocol}{37}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Publicly Verifiable, Non-interactive Arguments via Fiat-Shamir}{39}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Fiat-Shamir Applied to $\Sigma $-Protocol and Forking Lemmas}{41}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}A Homomorphic Commitment Scheme Derived From the $\Sigma $-Protocols}{43}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Pedersen Commitments}{44}{subsection.8.5}%
+\contentsline {section}{\numberline {9}Zero-Knowledge via Commit-And-Prove and Masking Polynomials}{47}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Commit-and-Prove}{47}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Zero-Knowledge via Masking Polynomials}{49}{subsection.9.2}%
+\contentsline {section}{\numberline {10}Polynomial Commitments from Hardness of Discrete Logarithm}{50}{section.10}%
+\contentsline {subsection}{\numberline {10.1}A First Polynomial Commitment}{50}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Pedersen Vector Commitments}{51}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Bulletproofs}{54}{subsection.10.3}%
+\contentsline {section}{\numberline {11}Polynomial Commitments from Pairings}{58}{section.11}%
+\contentsline {subsection}{\numberline {11.1}A Batched Version of KZG with Connection to Plonk}{58}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Commitments to $w \in \mathbb {G}^n$ via Inner Pairing Products }{59}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Dory}{60}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}Application to polynomial commitments and matrix commitments}{62}{subsection.11.4}%
+\contentsline {subsection}{\numberline {11.5}An improved version of Dory}{64}{subsection.11.5}%
+\contentsline {section}{\numberline {12}End}{66}{section.12}%
